@@ -1,7 +1,6 @@
 <?php
 
-// プラグイン
-import('libs/plugins/mail.php');
+import('app/services/mail.php');
 
 //ワンタイムトークン
 if (!token('check')) {
